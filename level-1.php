@@ -18,8 +18,8 @@
         return $converted_amount;
     }
 
-    $amount = 1; // currency amount
-    $from_currency = 'USD';
-    $to_currency = 'IDR';
+    $amount = 15000; // currency amount
+    $from_currency = 'IDR';
+    $to_currency = 'USD';
 
-    echo convertCurrency($amount, $from_currency, $to_currency) . "\n";
+    echo convertCurrency($amount, $from_currency, $to_currency) . " {$to_currency}" . "\n";
